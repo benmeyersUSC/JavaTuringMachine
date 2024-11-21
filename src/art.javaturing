@@ -1,0 +1,31 @@
+
+#########
+
+rightOne-ASTR
+    -ASTR-R-print0;
+
+print0-x
+    -S0-R-rightTwo;
+
+print0-S0
+    -x-R-print0;
+
+print0-ASTR
+    -x-R-rightTwo;
+
+rightTwo-ASTR
+    -ASTR-R-print1;
+
+print1-ASTR
+    -S0-R-rightOne;
+
+left-ASTR
+    -ASTR-L-left;
+
+left-S0
+    -S0-L-left;
+
+left-x
+    -x-L-print0;
+
+#########
